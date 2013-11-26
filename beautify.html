@@ -51,7 +51,7 @@
 			img: "http://www.jsbeautifier.org/favicon.ico",
 			key: ["f", false, false, true], // alt+f
 			contentType: ["text/html"],
-			pid: "htmlbeautify.config"
+			pid: "beautify.config"
 		});
 
 		provider.registerServiceProvider(["orion.edit.command", "orion.cm.managedservice"], {
@@ -89,7 +89,7 @@
 			img: "http://www.jsbeautifier.org/favicon.ico",
 			key: ["f", false, false, true], // alt+f
 			contentType: ["application/javascript", "application/json"],
-			pid: "htmlbeautify.config"
+			pid: "beautify.config"
 		});
 
 		provider.registerServiceProvider(["orion.edit.command", "orion.cm.managedservice"], {
@@ -127,7 +127,7 @@
 			img: "http://www.jsbeautifier.org/favicon.ico",
 			key: ["f", false, false, true], // alt+f
 			contentType: ["text/css"],
-			pid: "htmlbeautify.config"
+			pid: "beautify.config"
 		});
 
 
@@ -135,9 +135,9 @@
 		    PREF_VALUE_1_TAB    = '{"indent_size": 1, "indent_char": "\\t"}';
 		provider.registerServiceProvider("orion.core.setting", {}, {
 			settings: [{
-				pid: 'htmlbeautify.config',
-				name: 'Format HTML',
-				tags: 'beautify html htmlbeautify formatting'.split(' '),
+				pid: 'beautify.config',
+				name: 'Beautify',
+				tags: 'beautify html css js json formatting'.split(' '),
 				category: 'Formatting',
 				properties: [{
 					id: 'indent_style',
