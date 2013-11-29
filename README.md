@@ -1,5 +1,5 @@
 # beautify
 
-[Install URL](http://jonjonsonjr.github.io/beautify/beautify.html)
+This is a plugin for [Orion](http://www.eclipse.org/orion/) that uses [jsbeautifier](https://github.com/einars/js-beautify) to format HTML, CSS, and JavaScript.
 
-Using [jsbeautifier](https://github.com/einars/js-beautify)
+[Install URL](http://jonjonsonjr.github.io/beautify/beautify.html)
